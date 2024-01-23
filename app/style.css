@@ -167,3 +167,27 @@ body {
   border-radius: 32px;
   background: var(--clr-neutral-grey-300);
 }
+
+@media (min-width: 1440px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  body {
+    padding: 218.5px 0px 219.5px 0px;
+    font-size: 16px;
+  }
+
+  .blog {
+    width: 384px;
+    flex-shrink: 0;
+  }
+
+  .blog__category {
+    font-size: 14px;
+  }
+
+  .blog__publish {
+    font-size: 14px;
+  }
+}
